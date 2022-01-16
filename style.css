@@ -16,8 +16,16 @@ body {
 
 header {
     padding: 50px;
+} 
+.section-title{
+    text-align: center;
 }
-
+.section-title h2{
+    color: #3A3A3A;
+    font-size: 28px;
+    line-height: 70px;
+    margin: 50PX 0;
+}
 .container {
     max-width: 1200px;
     margin: auto;
@@ -134,14 +142,35 @@ nav {
        justify-content:center;
        align-items: flex-end;
    }
-}
+
 .banner-right img{
     width: 50%;
     
 }
-.logo img{   
-    margin: 10px;
-    padding-left: 50px;    
+.logo img{          
+    margin:10px 0;
+    padding-left: 50px;
+    padding-bottom: 20px;
+
+}
+ /*courses styles*/
+ .populaer-clloection{
+     display: grid;
+     grid-template-columns:1fr 1fr 1fr;
+ }
+
+.fas fa-star,
+.filled {
+    color: #FFC014;
+}
+footer{
+    margin-top: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
 }
 
     
